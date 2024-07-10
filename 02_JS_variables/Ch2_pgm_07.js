@@ -3,7 +3,7 @@
 
 const num = 20;
 var name1 = "Priya";
-console.log(name1 + " is " + num + " year old");
+console.log(name1 + " is " + num + " year old ");
 
 
 /* Further Adventures
