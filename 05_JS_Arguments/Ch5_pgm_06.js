@@ -1,6 +1,7 @@
 // A function with two arguments
 
 var showSum;
+var showProduct;
 
 showSum = function (number1, number2) {
 	var total = number1 + number2;
@@ -9,8 +10,33 @@ showSum = function (number1, number2) {
 
 showSum(30, 23);
 showSum(2.8, -5);
+showSum(56, 74);
 
+showProduct = function (number1, number2) {
+	var total = number1 * number2;
+	console.log("The Product is " + total);
+};
 
+showProduct(3,9);
+
+showProduct = function (number1, number2,number3) {
+	var total = number1 * number2 * number3;
+	console.log("The Product of three numbers is " + total);
+};
+showProduct(3,5,7);
+
+showDifference= function (number1, number2) {
+	var total = number1 + number2;
+	console.log("The subtraction is " + total);
+};
+
+showDifference(8,4);
+
+showQuotient = function (number1, number2) {
+	var total = number1 + number2;
+	console.log("The Quotient is " + total);
+};
+showQuotient(8765,5);
 
 /* Further Adventures
  *
