@@ -3,12 +3,12 @@
 var sayHello;
 
 sayHello = function () {
-	console.log("Hello World!");
+	console.log("Hello! You're Welcome!");
+	console.log("Hello\nWorld!");
 };
 
 sayHello();
-sayHello();
-sayHello();
+
 
 
 
