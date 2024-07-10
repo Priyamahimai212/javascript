@@ -6,7 +6,11 @@ showMessage = function (message) {
 	console.log("The message is: " + message);
 };
 
-showMessage("It's full of stars!");
+showMessage("Food is life!");
+showMessage("Briyani is worth than anything!");
+showMessage("Naan with Paneer Butter Masala!");
+
+
 
 
 
