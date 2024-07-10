@@ -3,9 +3,16 @@
 var findTotal;
 var displayMenu;
 
+var number1;
+var number2;
+ number1 = 77;
+ number2 = 87;
+
 findTotal = function () {
 	result = number1 + number2;
+	console.log(result);
 };
+
 
 displayMenu = function () {
 	console.log("Please choose an option:");
@@ -14,7 +21,8 @@ displayMenu = function () {
 	console.log("(9) Quit");
 };
 
-
+findTotal();
+displayMenu();
 
 /* Further Adventures
  *
