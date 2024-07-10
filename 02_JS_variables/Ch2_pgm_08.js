@@ -4,7 +4,7 @@ let score = 0;
 function splatkumquat(){
     console.log("You sucessfully splatted a kumquat!");
     score += 100;
-    console.log("Your new score:" + score);
+    console.log("Your new score: " + score);
     console.log("congratulations!");
 }
 splatkumquat();
