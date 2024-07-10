@@ -4,7 +4,7 @@ var book1;
 var book2;
 
 book1 = {
-    title : "The Hobbit",
+    title : "The Hobbit ",
     author : "J. R. R. Tolkien",
     published : 1937
 };
