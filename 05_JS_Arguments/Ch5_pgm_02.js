@@ -6,12 +6,18 @@ var showMessage;
 msg = "It's full of stars!";
 
 showMessage = function () {
-	console.log(message);
+	console.log(msg);
 };
 
-showMessage();
 
 
+console.log(msg);
+
+var msg1;
+msg1 = "Songs are Divine!";
+
+console.log(msg1);
+console.log("A.R.Rahman is the " + "one of the musician.");
 
 /* Further Adventures
  *
