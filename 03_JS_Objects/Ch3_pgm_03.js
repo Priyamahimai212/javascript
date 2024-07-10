@@ -14,7 +14,7 @@ var book2;
 
 book2 = {
     title :"The Hitchhiker's Guide to the Galaxy",
-    author : "Douglas Adams",
+    author : "Douglas Adams ",
     published : 1979
 };
 
