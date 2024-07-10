@@ -3,7 +3,7 @@
 var book;
 var bookName;
 
-bookName = "The Great Gatsby";
+bookName = "The Great Gatsby ";
 
 book = {
     title : bookName
