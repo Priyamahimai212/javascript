@@ -5,11 +5,25 @@ var displayMenu;
 displayMenu = function () {
 	console.log("Please choose an option:");
 	console.log("(1) Print log");
+	console.log("(4) Choose file");
+	console.log("(3) Add Name");
 	console.log("(2) Upload file");
 	console.log("(9) Quit");
 };
 
 displayMenu();
+
+var displayMyMenu;
+
+displayMyMenu = function () {
+	console.log("Please choose an Ajith Movie:");
+	console.log("(1) Amarkalam");
+	console.log("(4) Managatha");
+	console.log("(3) Veeram");
+	
+};
+
+displayMyMenu();
 
 
 
