@@ -1,7 +1,7 @@
 // Declaring and assigning in two steps
 
 let score2;
- score2 = 1;
+score2 = 1;
 console.log(score2);
 console.log("Lionel Messi has a score of 100");
 
