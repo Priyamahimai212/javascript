@@ -3,7 +3,7 @@
 var player1;
 
 player1 = {
-	  name: "Max",
+	  name: "Max ",
 	  score: 0
 };
 
