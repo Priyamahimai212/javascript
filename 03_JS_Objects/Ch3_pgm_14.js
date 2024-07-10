@@ -1,7 +1,7 @@
 // A question and answer for a quiz app
 
 var questionAndAnswer = {
-	question: "What is the capital of France?",
+	question: "What is the capital of France? ",
 	answer1: "Bordeaux",
 	answer2: "F",
 	answer3: "Paris",
