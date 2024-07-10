@@ -11,7 +11,7 @@ console.log(book);
 var book2;
 
 book2 = {
-    title : "The Alchemist"
+    title : "The Alchemist "
 };
 
 console.log(book2);
