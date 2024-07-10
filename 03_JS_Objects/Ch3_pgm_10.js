@@ -3,7 +3,7 @@
 var player1;
 
 player1 = {
-    name: "Max",
+    name: "Max ",
     attempted: 0,
     correct: 0
 };
