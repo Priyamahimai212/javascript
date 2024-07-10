@@ -1,6 +1,8 @@
 // Calling the same function with different arguments
 
 var showMessage;
+var myMessage;
+myMessage = "These are the flowers!";
 
 showMessage = function (message) {
 	console.log("The message is: " + message);
@@ -10,7 +12,7 @@ showMessage("It's full of stars!");
 showMessage("Hello to Jason Isaacs");
 showMessage("Hello to Jason Isaacs and Stephen Fry");
 
-
+showMessage(myMessage);
 
 /* Further Adventures
  *
