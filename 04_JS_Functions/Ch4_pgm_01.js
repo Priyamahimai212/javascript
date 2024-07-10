@@ -25,7 +25,7 @@ movie2 = {
 console.log("Movie information for " + movie2.title);
 console.log("------------------------------");
 console.log("Actors: " + movie2.actors);
-console.log("Directors: " + movie2.directors);
+console.log("Directors: " + movie2.director);
 console.log("------------------------------");
 
 
