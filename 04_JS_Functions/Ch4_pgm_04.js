@@ -3,9 +3,9 @@
 var sayHello;
 
 sayHello = function () {
-    console.log("Hello World!");
+    console.log("Hello!!");
 };
-
+sayHello();
 
 
 /* Further Adventures
