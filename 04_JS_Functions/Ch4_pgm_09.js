@@ -1,14 +1,23 @@
 // Using a function to display object properties
 
 var showMovieInfo;
+var movie;
+movie = {
+     title : "Arul" ,
+     actors : "Vikram,Jyothika" ,
+     director: "k.s.Ravikumar"
+} ;
 
 showMovieInfo = function () {
   console.log("Movie information for " + movie.title);
   console.log("------------------------------");
   console.log("Actors: " + movie.actors);
-  console.log("Directors: " + movie.directors);
+  console.log("Directors: " + movie.director);
   console.log("------------------------------");
 };
+
+showMovieInfo();
+
 
 
 

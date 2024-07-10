@@ -10,6 +10,12 @@ movie1 = {
     directors: "Pete Doctor, Ronaldo Del Carmen"
 };
 
+movie2 = {
+  title: "Vadachennai",
+    actors: "Dhanush,Aishwarya",
+    directors: "Vetrimaran"
+};
+
 showMovieInfo = function () {
   console.log("Movie information for " + movie.title);
   console.log("------------------------------");
@@ -18,7 +24,7 @@ showMovieInfo = function () {
   console.log("------------------------------");
 };
 
-movie = movie1;
+movie = movie2;
 
 showMovieInfo();
 
