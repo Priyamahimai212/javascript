@@ -5,7 +5,7 @@ var post = {
 	title : "My Crazy Space Adventure",
 	author : "Philae",
 	created : "2015-06-21",
-	body : "You will not believe where I just woke up!! Only on a comet..."
+	body : "You will not believe where I just woke up!! Only on a comet...."
 };
 console.log(post.id);
 console.log(post.title);
