@@ -2,7 +2,7 @@
 
 var movie1;
 var showMovieInfo;
-var movie;
+var movie2;
 
 movie1 = {
     title: "Inside Out",
