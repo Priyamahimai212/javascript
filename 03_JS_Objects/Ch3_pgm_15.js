@@ -5,7 +5,7 @@ var player;
 player = {
     name: "Kandra",
     health: 50,
-    place: "The Dungeon of Doom",
+    place: "The Dungeon of Doom ",
     items: "a rusty key, The Sword of Destiny, a piece of cheese"
 };
 
