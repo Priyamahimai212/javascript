@@ -15,7 +15,7 @@ bookAuthor = "George Orwell";
 console.log(bookTitle2 + " by " + bookAuthor);
 
 var bookTitle3;
-bookTitle3 = "The Great Gatsby";
+bookTitle3 = "The Great Gatsby ";
 bookAuthor = "F.Scott Fitzgerald";
 
 console.log(bookTitle3 + " by " + bookAuthor);
