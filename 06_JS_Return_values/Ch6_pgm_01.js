@@ -16,7 +16,9 @@ getMyMessage = function(){
     return "It's really unbeleivable";
 }
 
-getMyMessage();
+response =  getMyMessage();
+console.log(response);
+
 /* Further Adventures
  *
  * 1) Write a getMyMessage function
