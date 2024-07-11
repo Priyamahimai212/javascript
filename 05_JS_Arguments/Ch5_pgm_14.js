@@ -1,29 +1,43 @@
 // Displaying a player's information using properties
 
-var showPlayerName = function (playerName) {
+var showLine = function(length) {
+    var line = "*****************";
+    console.log(line.substring(0, length));
+};
+
+var showPlayerNameInBox = function(playerName) {
+    var length = playerName.length + 4; // Adding space for padding and asterisks
+    showLine(length);
+    console.log("* " + playerName + " *");
+    showLine(length);
+};
+
+var showPlayerName = function(playerName) {
     console.log(playerName);
+    showLine(33);
 };
 
-var showPlayerHealth = function (playerName, playerHealth) {
+var showPlayerHealth = function(playerName, playerHealth) {
     console.log(playerName + " has health " + playerHealth);
+
+    showLine(33);
 };
 
-var showPlayerPlace = function (playerName, playerPlace) {
+var showPlayerPlace = function(playerName, playerPlace) {
     console.log(playerName + " is in " + playerPlace);
+    showLine(33);
 };
 
-var showPlayerInfo = function (playerName, playerPlace, playerHealth) {
+var showPlayerInfo = function(playerName, playerPlace, playerHealth) {
     console.log("");
-
+    
     showPlayerName(playerName);
-
-    console.log("----------------------------");
-
+    
+    
     showPlayerPlace(playerName, playerPlace);
     showPlayerHealth(playerName, playerHealth);
-
-    console.log("----------------------------");
-    console.log("");
+    
+        console.log("");
 };
 
 var player1 = {
@@ -40,8 +54,6 @@ var player2 = {
 
 showPlayerInfo(player1.name, player1.place, player1.health);
 showPlayerInfo(player2.name, player2.place, player2.health);
-
-
 
 
 /* Further Adventures
