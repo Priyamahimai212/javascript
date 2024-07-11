@@ -25,6 +25,31 @@ planet2 = buildPlanet("Neptune", 8, "Ice Giant", 24622, 4);
 console.log(getPlanetInfo(planet1));
 console.log(getPlanetInfo(planet2));
 
+var buildCar;
+var getCarInfo;
+var car1;
+var car2;
+
+buildCar = function (make, model, year, color, mileage) {
+    return {
+        make: make,
+        model: model,
+        year: year,
+        color: color,
+        mileage: mileage
+    };
+};
+
+getCarInfo = function (car) {
+    return car.year + " " + car.make + " " + car.model + " (" + car.color + "), " + car.mileage + " miles";
+};
+
+car1 = buildCar("Toyota", "Camry", 2020, "Blue", 15000);
+car2 = buildCar("Honda", "Civic", 2018, "Red", 30000);
+
+console.log(getCarInfo(car1));
+console.log(getCarInfo(car2));
+
 
 
 /* Further Adventures
