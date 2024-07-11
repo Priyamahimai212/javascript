@@ -4,11 +4,17 @@ var add;
 
 add = function (number1, number2) {
 	var total = number1 + number2;
-
+    console.log("The sum of " + number1 + " and " + number2 + " is: " + total);
+      
 	return total;
 };
 
 var sum = add(50, 23);
+
+var newSum = add(10,52);
+console.log(newSum);
+
+var nestedSum = add(add(5, 10), 15);
 
 console.log(sum);
 
