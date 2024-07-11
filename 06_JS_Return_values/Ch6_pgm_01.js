@@ -2,6 +2,7 @@
 
 var getMessage;
 var response;
+var getMyMessage;
 
 getMessage = function () {
     return "I’m going on an adventure!";
@@ -10,9 +11,12 @@ getMessage = function () {
 response = getMessage();
 
 console.log(response);
+ 
+getMyMessage = function(){
+    return "It's really unbeleivable";
+}
 
-
-
+getMyMessage();
 /* Further Adventures
  *
  * 1) Write a getMyMessage function
