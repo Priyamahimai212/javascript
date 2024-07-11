@@ -22,13 +22,20 @@ showPlayerInfo = function (playerName, playerPlace, playerHealth) {
 
     showPlayerName(playerName);
 
-    console.log("----------------------------");
-
+    showBlankLine = function(){
+        console.log("_____________________");
+    }
+        showBlankLine();
     showPlayerPlace(playerName, playerPlace);
     showPlayerHealth(playerName, playerHealth);
 
     console.log("----------------------------");
     console.log("");
+
+   showLine = function(){
+   console.log("------------------");
+   }
+   showLine();
 };
 
 showPlayerInfo("Kandra", "The Dungeon of Doom", 50);
