@@ -20,7 +20,10 @@ var buildPlanet = function (name, position, type) {
 var planets = [
     buildPlanet( "Jupiter", 5, "Gas Giant" ),
     buildPlanet( "Neptune", 8, "Ice Giant" ),
-    buildPlanet( "Mercury", 1, "Terrestrial" )
+    buildPlanet( "Mercury", 1, "Terrestrial" ),
+    buildPlanet( "Mars", 2, "Air" ),
+    buildPlanet( "Earth", 3, "All" )
+
 ];
 
 planets.forEach(function (planet) {
