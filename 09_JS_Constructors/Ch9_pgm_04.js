@@ -12,9 +12,11 @@ var Planet = function (name, position, type) {
     };
 };
 
-var planet = new Planet( "Jupiter", 5, "Gas Giant" );
+var planet1 = new Planet( "Jupiter", 5, "Gas Giant" );
+var planet2 = new Planet( "Mars", 4, "Air" );
 
-planet.showPlanet();
+planet1.showPlanet();
+planet2.showPlanet();
 
 
 
