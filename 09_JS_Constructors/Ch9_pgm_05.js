@@ -19,13 +19,23 @@ var Planet = function (name, position, type) {
 };
 
 var planet = new Planet( "Jupiter", 5, "Gas Giant" );
+var planet2 = new Planet( "Mars", 4, "Air" );
 
 planet.addMoon("Io");
 planet.addMoon("Europa");
-
+planet2.addMoon("sec");
 planet.showPlanet();
 
+Planet.prototype.removeMoon = function() {
+    if (this.moons.length > 0) {
+      this.moons.pop();
+    } else {
+      console.log("No moons to remove.");
+    }
+  };
 
+  planet2.removeMoon();
+  planet2.showPlanet();
 
 /* Further Adventures
  *
