@@ -7,19 +7,11 @@ var CalendarEvent = function (title, startDate, startTime, endTime) {
     this.endTime = endTime;
   
     this.showEvent = function () {
-        var dateString = [
-            this.startDate,
-            ", from ",
-            this.startTime,
-            " to ",
-            this.endTime
-        ].join("");
-      
-        console.log(this.title);
-        console.log(dateString);
+        console.log(this.title + ": " + this.startDate + " - (" + this.startTime + " - " + this.endTime + ")");
     };
 };
 
+      
 var calEvent = new CalendarEvent(
     "Annual Review",
     "3/5/16",
@@ -27,7 +19,15 @@ var calEvent = new CalendarEvent(
     "5.00pm"
 );
 
-calEvent.showEvent();
+ calEvent.showEvent();
+var calEvent2 = new CalendarEvent(
+    " Review",
+    "8/4/18",
+    "5.00pm",
+    "7.00pm"
+);
+
+calEvent2.showEvent();
 
 
 
