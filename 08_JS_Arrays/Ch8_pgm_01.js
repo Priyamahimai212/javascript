@@ -2,12 +2,21 @@
 
 var scores;
 var names;
+var age;
 
-scores = [ 3, 1, 8, 2 ];
-names = [ "Kandra", "Dax", "Blinky" ];
+
+scores = [ 3, 1, 8, 2, 7 ];
+names = [ "Kandra", "Dax", "Blinky", "Jack" ];
+age = ["31", "29", "30"];
+
+var akascores;
+akascores = scores;
 
 console.log(scores);
 console.log(names);
+console.log(age);
+console.log(akascores);
+
 
 
 
