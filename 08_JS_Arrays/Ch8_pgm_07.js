@@ -8,14 +8,27 @@ items = [
   "The Grand Canyon",
   "Bondi Beach"
 ];
+items.push("Taj Mahal");
+items[4] = "Marina";
 
 showInfo = function (itemToShow) {
-    console.log(itemToShow);
+    console.log(itemToShow + " has " + itemToShow.length + " letters.");
 };
 
 items.forEach(showInfo);
 
+var totalLetters = function(arr) {
+  var total = 0;
+  arr.forEach(function(item) {
+      if (item) {  
+          total += item.length;
+      }
+  });
+  return total;
+};
 
+var total = totalLetters(items);
+console.log("The total number of letters in the items array is " + total);
 
 /* Further Adventures
  *
