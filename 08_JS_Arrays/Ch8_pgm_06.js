@@ -7,6 +7,8 @@ var removed;
 items.push(item);
 items.push("The Grand Canyon");
 items.push("Bondi Beach");
+items.push("Kodaikanal");
+items[2] = "The Taj Mahal";
 
 console.log(items);
 
@@ -15,7 +17,9 @@ removed = items.pop();
 console.log(removed + " was removed");
 console.log(items.join(" and "));
 
+items.push("Mount Everest", "Great Wall of China", "Machu Picchu");
 
+console.log(items);
 
 /* Further Adventures
  *
