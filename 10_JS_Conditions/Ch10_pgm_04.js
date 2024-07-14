@@ -13,6 +13,8 @@ var getGuesser = function () {
   };
   
   var guess = getGuesser();
+  guess(2);
+  
   
   
   

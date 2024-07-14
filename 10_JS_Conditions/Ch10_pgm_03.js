@@ -1,6 +1,6 @@
 // Guess the number - using local scope
 
-var getGuesser = function () {
+  var getGuesser = function () {
     var secret = 8;
   
     return function (userNumber) {
