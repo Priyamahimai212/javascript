@@ -13,7 +13,9 @@
   };
   
   var guess = getGuesser();
-  
+  guess(8);
+  guess(3);
+
   
   
   /* Further Adventures
